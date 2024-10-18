@@ -534,7 +534,7 @@ body.loaded {
 }
 
 .load-text span:nth-child(4) {
-	-webkit-animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3;
 	animation-delay: 0.3s;
 }
 
@@ -718,6 +718,11 @@ body.loaded {
 
 .tj-header-area .logo-box {
 	max-width: 60px;
+	width: 100%;
+	margin-right: 35px;
+}
+.header-info-list .ul-reset {
+	max-width: 250px;
 	width: 100%;
 	margin-right: 35px;
 }
@@ -1243,7 +1248,7 @@ body.loaded {
 * ===============================
 */
 .portfolio-section {
-	padding-top: 120px;
+	padding-top: 20px;
 	padding-bottom: 80px;
 	background: var(--tj-theme-accent-1);
 }
@@ -1254,7 +1259,7 @@ body.loaded {
 .portfolio-filter .button-group {
 	background-color: var(--tj-black-2);
 	border-radius: 60px;
-	padding: 6px 8px;
+	padding: 3px 3px;
 	display: inline-block;
 }
 .portfolio-filter .button-group button {
@@ -1886,6 +1891,7 @@ body.loaded {
 	max-width: 60px;
 	width: 100%;
 	margin: 0 auto 30px;
+	text-align: center;
 }
 
 .skills-widget .skill-item .icon-box img {
@@ -1907,7 +1913,7 @@ body.loaded {
 .skills-widget .skill-item .number {
 	color: var(--tj-grey-1);
 	font-weight: 800;
-	font-size: 20px;
+	font-size: 15px;
 	line-height: 1;
 }
 
@@ -1917,8 +1923,8 @@ body.loaded {
 
 .skills-widget .skill-item p {
 	color: var(--tj-theme-primary);
-	margin-bottom: 0;
 }
+
 /*  END: Skills Section */
 
 /*
@@ -2888,6 +2894,7 @@ blockquote cite::before {
 		var(--tj-theme-secondary) 0%,
 		var(--tj-theme-primary) 100%
 	);
+		
 	background: linear-gradient(
 		161deg,
 		var(--tj-theme-secondary) 0%,
